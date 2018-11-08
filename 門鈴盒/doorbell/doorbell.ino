@@ -22,8 +22,8 @@ int buzzerPin=10;
 int           ButtonState;
 unsigned long Nowtime = 0;
 unsigned long LCDNowtime = 0;
-const char* ssid = "twgc";
-const char* password = "mmmmmmmm";
+const char* ssid = "Wifi ssid";
+const char* password = "WiFi password";
 String listen = "";
 String DoorST = "close";
 bool isread = false; //註冊模式讀卡了嗎?
